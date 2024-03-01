@@ -54,7 +54,7 @@ To utilize a dataset, follow these steps:
 
 ### Example of How Load a Dataset in a Python IDE
 
-After downloading the dataset from this repository, be sure to substitute 'path_to_tx_data' and 'path_to_rx_data' with the corresponding file paths on your system. Below, you'll find an example demonstrating how to load the transmitted dataset. This example specifically pertains to the first dataset within the 6 MHz dataset set, with an RF power of 10 dBm:
+After downloading the dataset from this repository, be sure to substitute 'path_to_tx_data' and 'path_to_rx_data' with the corresponding file paths on your system. Below, you'll find an example demonstrating how to load the transmitted dataset. This example specifically pertains to the first dataset within the 6 MHz dataset set, with an RF power of 10 dBm
 
 ```python
 
