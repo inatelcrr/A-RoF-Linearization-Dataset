@@ -97,8 +97,8 @@ import matplotlib.pyplot as plt
 callback = tf.keras.callbacks.EarlyStopping(monitor='mean_squared_error',  patience=100,min_delta=1e-9, verbose=1,restore_best_weights=True)
 
 # Replace 'path_to_tx_data' and 'path_to_rx_data' with the actual file paths on your system
-tx_data_path = '/home/luizmelo/Documentos/Dataset/6 MHz/dataset_1_rof_input_0dBm_6MHz'
-rx_data_path = '/home/luizmelo/Documentos/Dataset/6 MHz/dataset_1_rof_output_0dBm_6MHz'
+tx_data_path = '/home/luizmelo/Documentos/Dataset/6 MHz/dataset_6_rof_input_5dBm_6MHz'
+rx_data_path = '/home/luizmelo/Documentos/Dataset/6 MHz/dataset_6_rof_output_5dBm_6MHz'
 
 # Load the transmission data from the file
 tx_data = np.fromfile(tx_data_path, dtype=np.complex64)
