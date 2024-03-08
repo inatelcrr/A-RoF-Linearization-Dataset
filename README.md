@@ -33,7 +33,7 @@ git clone https://github.com/inatelcrr/A-RoF-Linearization-Dataset.git
 
 ```
 
-This command will create a folder on your personal computer, which will contain the dataset for all bandwidths.
+This command will create a folder on your personal computer, which will contain the dataset for all bandwidths. Additionally, you have the option to download the dataset as a ZIP file. 
 
 ### File Format:
 
