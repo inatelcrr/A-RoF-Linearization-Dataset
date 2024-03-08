@@ -22,6 +22,19 @@ The dataset provided includes both transmitted and received GFDM waveform sample
 
 The dataset provided here contains training instances and labels acquired from a practical A-RoF (Analog Radio-over-Fiber) system. Signals with bandwidths of 3, 6, 12, and 24 MHz were considered during data collection. For each bandwidth, RF power was varied from 0 to 11 dBm, resulting in eleven pairs of datasets for each bandwidth.
 
+
+### Download the Dataset:
+
+You can easily obtain the complete dataset by utilizing Git. Simply follow these steps in your terminal:
+
+```shell
+
+git clone https://github.com/inatelcrr/A-RoF-Linearization-Dataset.git
+
+```
+
+This command will create a folder on your personal computer, which will contain the dataset for all bandwidths.
+
 ### File Format:
 
 The files are saved in binary format, compatible with most Python IDEs.
