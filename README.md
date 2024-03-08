@@ -54,15 +54,15 @@ To utilize a dataset, follow these steps:
 
 ### Example of How Load a Dataset in a Python IDE
 
-After downloading the dataset from this repository, be sure to substitute 'path_to_tx_data' and 'path_to_rx_data' with the corresponding file paths on your system. Below, you'll find an example demonstrating how to load the transmitted dataset. This example specifically pertains to the first dataset within the 6 MHz dataset set, with an RF power of 10 dBm
+After downloading the dataset from this repository, be sure to substitute 'path_to_tx_data' and 'path_to_rx_data' with the corresponding file paths on your system. Below, you'll find an example demonstrating how to load the transmitted dataset. This example specifically refers to the sixth dataset within the 6 MHz signa with 5 dBm RF power:
 
 ```python
 
 import numpy as np
 
 # Replace 'path_to_tx_data' and 'path_to_rx_data' with the actual file paths on your system
-tx_data_path = 'path_to_tx_data/dataset_1_rof_input_0dBm_6MHz'
-rx_data_path = 'path_to_rx_data/dataset_1_rof_output_0dBm_6MHz'
+tx_data_path = 'path_to_tx_data/dataset_6_rof_input_5dBm_6MHz'
+rx_data_path = 'path_to_rx_data/dataset_6_rof_output_5dBm_6MHz'
 
 # Load the transmission data from the file
 tx_data = np.fromfile(tx_data_path, dtype=np.complex64)
@@ -113,7 +113,7 @@ train_matrix = np.c_[rx_data.real, rx_data.imag]
 train_labels = np.c_[tx_data.real, tx_data.imag]
 
 #-----------------------
-# Designing the MLP
+# Designing the MLP Neural Network
 #----------------------
 initializer = tf.keras.initializers.glorot_normal(seed=25)
 mlpModel = Sequential()
